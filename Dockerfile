@@ -16,8 +16,10 @@ RUN \
         psycopg2==2.9.1 \
         textdistance==4.2.1 \
         spacy==3.1.1 \
-        rake-spacy==0.3.1
-
+        rake-spacy==0.3.1 \
+        beautifulsoup4==4.9.3 \
+        networkx==2.5.1 \
+        matplotlib==3.4.2
 
 RUN python -m spacy download en_core_web_md
 
