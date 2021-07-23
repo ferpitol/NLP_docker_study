@@ -1,8 +1,7 @@
 FROM python:3.7
 
 LABEL maintainer="ferpitol@gmail.com"
-ENV HTTP_PROXY="http://proxy-dmz.intel.com:911"
-ENV HTTPS_PROXY="http://proxy-dmz.intel.com:912"
+
 RUN \
     useradd user \
     && mkdir /home/user \
